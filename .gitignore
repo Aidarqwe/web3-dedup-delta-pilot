@@ -1,0 +1,8 @@
+# generated datasets (~9.5 MB, rebuilt by src/datasets.py)
+data/
+
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.venv/

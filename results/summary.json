@@ -1,0 +1,632 @@
+{
+ "git_repo|FSC|2048": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 6496958,
+   "dedup_comp": 2563936,
+   "dedup_delta": 800284
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 25.694821386213984,
+   "dedup_comp": 70.67647313799534,
+   "dedup_delta": 90.84721718044734
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 4280,
+   "n_unique": 3183,
+   "avg_chunk_size": 2041.142946905435,
+   "n_delta_encoded": 2710,
+   "pct_chunks_delta": 85.13980521520578,
+   "t_chunk_s": 0.0012501250021159649,
+   "t_delta_s": 10.22348654223606,
+   "chunk_MBps": 6994.191768983531,
+   "pipeline_MBps": 0.8551431967941093
+  }
+ },
+ "git_repo|FastCDC|2048": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 780733,
+   "dedup_comp": 273275,
+   "dedup_delta": 178057
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 91.07082037244554,
+   "dedup_comp": 96.87457611921111,
+   "dedup_delta": 97.96357661717454
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 2599,
+   "n_unique": 205,
+   "avg_chunk_size": 3808.4536585365854,
+   "n_delta_encoded": 61,
+   "pct_chunks_delta": 29.75609756097561,
+   "t_chunk_s": 0.848196666687727,
+   "t_delta_s": 1.2173584578558803,
+   "chunk_MBps": 10.30847484244955,
+   "pipeline_MBps": 4.233057688030446
+  }
+ },
+ "git_repo|AE|2048": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 655639,
+   "dedup_comp": 276371,
+   "dedup_delta": 216868
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 92.50151024507714,
+   "dedup_comp": 96.83916741978774,
+   "dedup_delta": 97.51969837643793
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 5915,
+   "n_unique": 433,
+   "avg_chunk_size": 1514.1778290993072,
+   "n_delta_encoded": 96,
+   "pct_chunks_delta": 22.170900692840647,
+   "t_chunk_s": 0.5279242917895317,
+   "t_delta_s": 1.001613334286958,
+   "chunk_MBps": 16.562249807375466,
+   "pipeline_MBps": 5.716507950463944
+  }
+ },
+ "wiki|FSC|2048": {
+  "sizes": {
+   "raw": 467612,
+   "comp_per_version": 176360,
+   "filedag": 9785,
+   "dedup": 181092,
+   "dedup_comp": 95597,
+   "dedup_delta": 27720
+  },
+  "ratios": {
+   "comp_per_version": 62.28497130099313,
+   "filedag": 97.90745318768552,
+   "dedup": 61.27302122272311,
+   "dedup_comp": 79.5563415823375,
+   "dedup_delta": 94.0720084172348
+  },
+  "stats": {
+   "raw_total": 467612,
+   "n_versions": 20,
+   "n_chunks_total": 240,
+   "n_unique": 98,
+   "avg_chunk_size": 1847.8775510204082,
+   "n_delta_encoded": 81,
+   "pct_chunks_delta": 82.65306122448979,
+   "t_chunk_s": 4.2708124965429306e-05,
+   "t_delta_s": 0.27325891703367233,
+   "chunk_MBps": 10949.01732114241,
+   "pipeline_MBps": 1.7109740921905419
+  }
+ },
+ "wiki|FastCDC|2048": {
+  "sizes": {
+   "raw": 467612,
+   "comp_per_version": 176360,
+   "filedag": 9785,
+   "dedup": 73118,
+   "dedup_comp": 36962,
+   "dedup_delta": 27252
+  },
+  "ratios": {
+   "comp_per_version": 62.28497130099313,
+   "filedag": 97.90745318768552,
+   "dedup": 84.36353215914049,
+   "dedup_comp": 92.09558351795934,
+   "dedup_delta": 94.17209139200877
+  },
+  "stats": {
+   "raw_total": 467612,
+   "n_versions": 20,
+   "n_chunks_total": 200,
+   "n_unique": 29,
+   "avg_chunk_size": 2521.310344827586,
+   "n_delta_encoded": 18,
+   "pct_chunks_delta": 62.06896551724138,
+   "t_chunk_s": 0.041846875101327896,
+   "t_delta_s": 0.11155883315950632,
+   "chunk_MBps": 11.174358870709598,
+   "pipeline_MBps": 3.0482046939539167
+  }
+ },
+ "wiki|AE|2048": {
+  "sizes": {
+   "raw": 467612,
+   "comp_per_version": 176360,
+   "filedag": 9785,
+   "dedup": 70034,
+   "dedup_comp": 38694,
+   "dedup_delta": 16604
+  },
+  "ratios": {
+   "comp_per_version": 62.28497130099313,
+   "filedag": 97.90745318768552,
+   "dedup": 85.02305330059966,
+   "dedup_comp": 91.72519097029162,
+   "dedup_delta": 96.4491929206265
+  },
+  "stats": {
+   "raw_total": 467612,
+   "n_versions": 20,
+   "n_chunks_total": 321,
+   "n_unique": 50,
+   "avg_chunk_size": 1400.68,
+   "n_delta_encoded": 31,
+   "pct_chunks_delta": 62.0,
+   "t_chunk_s": 0.02834270801395178,
+   "t_delta_s": 0.10582016641274095,
+   "chunk_MBps": 16.498494066615535,
+   "pipeline_MBps": 3.48540534777753
+  }
+ },
+ "random_bin|FSC|2048": {
+  "sizes": {
+   "raw": 655360,
+   "comp_per_version": 655460,
+   "filedag": 655460,
+   "dedup": 655360,
+   "dedup_comp": 658560,
+   "dedup_delta": 658560
+  },
+  "ratios": {
+   "comp_per_version": -0.0152587890625,
+   "filedag": -0.0152587890625,
+   "dedup": 0.0,
+   "dedup_comp": -0.48828125,
+   "dedup_delta": -0.48828125
+  },
+  "stats": {
+   "raw_total": 655360,
+   "n_versions": 10,
+   "n_chunks_total": 320,
+   "n_unique": 320,
+   "avg_chunk_size": 2048.0,
+   "n_delta_encoded": 0,
+   "pct_chunks_delta": 0.0,
+   "t_chunk_s": 8.120806887745857e-05,
+   "t_delta_s": 0.9646309996023774,
+   "chunk_MBps": 8070.134028047457,
+   "pipeline_MBps": 0.6793321311668601
+  }
+ },
+ "random_bin|FastCDC|2048": {
+  "sizes": {
+   "raw": 655360,
+   "comp_per_version": 655460,
+   "filedag": 655460,
+   "dedup": 655360,
+   "dedup_comp": 657839,
+   "dedup_delta": 657839
+  },
+  "ratios": {
+   "comp_per_version": -0.0152587890625,
+   "filedag": -0.0152587890625,
+   "dedup": 0.0,
+   "dedup_comp": -0.3782653808593661,
+   "dedup_delta": -0.3782653808593661
+  },
+  "stats": {
+   "raw_total": 655360,
+   "n_versions": 10,
+   "n_chunks_total": 248,
+   "n_unique": 248,
+   "avg_chunk_size": 2642.5806451612902,
+   "n_delta_encoded": 0,
+   "pct_chunks_delta": 0.0,
+   "t_chunk_s": 0.06081116711720824,
+   "t_delta_s": 0.963649082928896,
+   "chunk_MBps": 10.776967966045621,
+   "pipeline_MBps": 0.6397124729539352
+  }
+ },
+ "random_bin|AE|2048": {
+  "sizes": {
+   "raw": 655360,
+   "comp_per_version": 655460,
+   "filedag": 655460,
+   "dedup": 655360,
+   "dedup_comp": 660598,
+   "dedup_delta": 660598
+  },
+  "ratios": {
+   "comp_per_version": -0.0152587890625,
+   "filedag": -0.0152587890625,
+   "dedup": 0.0,
+   "dedup_comp": -0.7992553710937544,
+   "dedup_delta": -0.7992553710937544
+  },
+  "stats": {
+   "raw_total": 655360,
+   "n_versions": 10,
+   "n_chunks_total": 524,
+   "n_unique": 524,
+   "avg_chunk_size": 1250.6870229007634,
+   "n_delta_encoded": 0,
+   "pct_chunks_delta": 0.0,
+   "t_chunk_s": 0.03938312502577901,
+   "t_delta_s": 0.9602917083539069,
+   "chunk_MBps": 16.640629700436953,
+   "pipeline_MBps": 0.6555731705122241
+  }
+ },
+ "git_repo|FSC|1024": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 6486718,
+   "dedup_comp": 2943029,
+   "dedup_delta": 955289
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 25.811935430818423,
+   "dedup_comp": 66.34081742400797,
+   "dedup_delta": 89.07443764100292
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 8549,
+   "n_unique": 6345,
+   "avg_chunk_size": 1022.3353821907014,
+   "n_delta_encoded": 5418,
+   "pct_chunks_delta": 85.39007092198581,
+   "t_chunk_s": 0.0015547499060630798,
+   "t_delta_s": 10.21440324978903,
+   "chunk_MBps": 5623.807382719502,
+   "pipeline_MBps": 0.8558780292813425
+  }
+ },
+ "git_repo|FastCDC|1024": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 661364,
+   "dedup_comp": 259888,
+   "dedup_delta": 198283
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 92.4360338871318,
+   "dedup_comp": 97.02768214607826,
+   "dedup_delta": 97.73225350524393
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 5026,
+   "n_unique": 347,
+   "avg_chunk_size": 1905.9481268011527,
+   "n_delta_encoded": 69,
+   "pct_chunks_delta": 19.88472622478386,
+   "t_chunk_s": 0.872042041271925,
+   "t_delta_s": 1.0201590419746935,
+   "chunk_MBps": 10.026596868250666,
+   "pipeline_MBps": 4.62086935549038
+  }
+ },
+ "git_repo|AE|1024": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 588348,
+   "dedup_comp": 284731,
+   "dedup_delta": 240723
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 93.27111192236985,
+   "dedup_comp": 96.7435547818099,
+   "dedup_delta": 97.24687068756694
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 11658,
+   "n_unique": 774,
+   "avg_chunk_size": 760.1395348837209,
+   "n_delta_encoded": 132,
+   "pct_chunks_delta": 17.05426356589147,
+   "t_chunk_s": 0.5281044589355588,
+   "t_delta_s": 0.9011143329553306,
+   "chunk_MBps": 16.556599460689135,
+   "pipeline_MBps": 6.117757511732685
+  }
+ },
+ "git_repo|FSC|4096": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 6535870,
+   "dedup_comp": 2292710,
+   "dedup_delta": 642532
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 25.249788016717112,
+   "dedup_comp": 73.77846277294492,
+   "dedup_delta": 92.65141393478716
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 2143,
+   "n_unique": 1604,
+   "avg_chunk_size": 4074.7319201995015,
+   "n_delta_encoded": 1365,
+   "pct_chunks_delta": 85.0997506234414,
+   "t_chunk_s": 0.000856165774166584,
+   "t_delta_s": 10.474926332943141,
+   "chunk_MBps": 10212.524564546255,
+   "pipeline_MBps": 0.834650204036844
+  }
+ },
+ "git_repo|FastCDC|4096": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 954918,
+   "dedup_comp": 302767,
+   "dedup_delta": 163549
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 89.07868073773614,
+   "dedup_comp": 96.5372785212156,
+   "dedup_delta": 98.12950342958872
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 1298,
+   "n_unique": 127,
+   "avg_chunk_size": 7519.03937007874,
+   "n_delta_encoded": 55,
+   "pct_chunks_delta": 43.30708661417323,
+   "t_chunk_s": 0.856450124643743,
+   "t_delta_s": 1.5286420406773686,
+   "chunk_MBps": 10.209133898645968,
+   "pipeline_MBps": 3.665943868807612
+  }
+ },
+ "git_repo|AE|4096": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 773645,
+   "dedup_comp": 286474,
+   "dedup_delta": 199361
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 91.15188525019518,
+   "dedup_comp": 96.72362023300663,
+   "dedup_delta": 97.7199245071889
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 2919,
+   "n_unique": 252,
+   "avg_chunk_size": 3070.0198412698414,
+   "n_delta_encoded": 81,
+   "pct_chunks_delta": 32.142857142857146,
+   "t_chunk_s": 0.5269501251168549,
+   "t_delta_s": 1.20749141741544,
+   "chunk_MBps": 16.5928682492694,
+   "pipeline_MBps": 5.041169613150681
+  }
+ },
+ "git_repo|FSC|8192": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 6597310,
+   "dedup_comp": 2092452,
+   "dedup_delta": 500597
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 24.547103749090482,
+   "dedup_comp": 76.06879718157732,
+   "dedup_delta": 94.27471295050307
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 1075,
+   "n_unique": 813,
+   "avg_chunk_size": 8114.772447724477,
+   "n_delta_encoded": 708,
+   "pct_chunks_delta": 87.08487084870849,
+   "t_chunk_s": 0.0008377498015761375,
+   "t_delta_s": 10.467524582985789,
+   "chunk_MBps": 10437.023062911883,
+   "pipeline_MBps": 0.835241819306791
+  }
+ },
+ "git_repo|FastCDC|8192": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 1285982,
+   "dedup_comp": 373620,
+   "dedup_delta": 152559
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 85.2923287784662,
+   "dedup_comp": 95.72693854051654,
+   "dedup_delta": 98.25519516300697
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 660,
+   "n_unique": 86,
+   "avg_chunk_size": 14953.279069767443,
+   "n_delta_encoded": 51,
+   "pct_chunks_delta": 59.30232558139535,
+   "t_chunk_s": 0.8339450000785291,
+   "t_delta_s": 2.0394688341766596,
+   "chunk_MBps": 10.484641072464793,
+   "pipeline_MBps": 3.042935861087484
+  }
+ },
+ "git_repo|AE|8192": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 1003779,
+   "dedup_comp": 332314,
+   "dedup_delta": 180387
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 88.51986146689458,
+   "dedup_comp": 96.19935189270706,
+   "dedup_delta": 97.93692859725967
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 1470,
+   "n_unique": 159,
+   "avg_chunk_size": 6313.075471698113,
+   "n_delta_encoded": 76,
+   "pct_chunks_delta": 47.79874213836478,
+   "t_chunk_s": 0.528929625172168,
+   "t_delta_s": 1.5664742081426084,
+   "chunk_MBps": 16.530770037987438,
+   "pipeline_MBps": 4.17275842536197
+  }
+ },
+ "git_repo|FSC|16384": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 6662846,
+   "dedup_comp": 1929597,
+   "dedup_delta": 471734
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 23.79757386362207,
+   "dedup_comp": 77.93135653060622,
+   "dedup_delta": 94.60481672681343
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 541,
+   "n_unique": 414,
+   "avg_chunk_size": 16093.830917874397,
+   "n_delta_encoded": 368,
+   "pct_chunks_delta": 88.88888888888889,
+   "t_chunk_s": 0.0006637922488152981,
+   "t_delta_s": 10.636159250047058,
+   "chunk_MBps": 13172.21467349935,
+   "pipeline_MBps": 0.8220136750637117
+  }
+ },
+ "git_repo|FastCDC|16384": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 1632297,
+   "dedup_comp": 446628,
+   "dedup_delta": 141033
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 81.33155237639723,
+   "dedup_comp": 94.89195200062582,
+   "dedup_delta": 98.38701708469748
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 380,
+   "n_unique": 63,
+   "avg_chunk_size": 25909.47619047619,
+   "n_delta_encoded": 44,
+   "pct_chunks_delta": 69.84126984126983,
+   "t_chunk_s": 0.8254320411942899,
+   "t_delta_s": 2.614995290990919,
+   "chunk_MBps": 10.592772710093927,
+   "pipeline_MBps": 2.541432547696463
+  }
+ },
+ "git_repo|AE|16384": {
+  "sizes": {
+   "raw": 8743614,
+   "comp_per_version": 1834895,
+   "filedag": 100822,
+   "dedup": 1387547,
+   "dedup_comp": 417658,
+   "dedup_delta": 174385
+  },
+  "ratios": {
+   "comp_per_version": 79.01445557866576,
+   "filedag": 98.84690701121984,
+   "dedup": 84.13073815930117,
+   "dedup_comp": 95.22327952720694,
+   "dedup_delta": 98.00557298160692
+  },
+  "stats": {
+   "raw_total": 8743614,
+   "n_versions": 20,
+   "n_chunks_total": 741,
+   "n_unique": 113,
+   "avg_chunk_size": 12279.176991150442,
+   "n_delta_encoded": 71,
+   "pct_chunks_delta": 62.83185840707964,
+   "t_chunk_s": 0.5270749172195792,
+   "t_delta_s": 2.1872112080454826,
+   "chunk_MBps": 16.58893966369,
+   "pipeline_MBps": 3.2213309859313926
+  }
+ }
+}
